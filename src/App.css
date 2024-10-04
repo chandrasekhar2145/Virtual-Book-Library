@@ -1,0 +1,25 @@
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  text-align: center;
+}
+
+h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  text-align: center;
+}
+
+input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ text-align: center;
+}
